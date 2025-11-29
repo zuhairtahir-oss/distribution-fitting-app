@@ -187,7 +187,7 @@ with tab5:
     fig.savefig(img, format="png")
     st.download_button("Download Fit Plot (PNG)", img.getvalue(), "fit.png", "image/png")
 
-st.info("You can now upload `app.py` to LEARN. For bonus marks, deploy on Streamlit Cloud.")
+
 
     
     
